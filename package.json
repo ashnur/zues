@@ -1,0 +1,29 @@
+{
+  "name": "zues",
+  "description": "streaming interface to the Steam Web API",
+  "version": "0.0.1",
+  "main": "index.js",
+  "bin": {
+    "zues": "bin/zues.js"
+  },
+  "scripts": {
+    "test": "node test/test.js",
+    "prepublish": "npm test"
+  },
+  "dependencies": {
+    "totemizer": "~0.0.2",
+    "viral": "~0.0.4",
+    "URIjs": "~1.11.2",
+    "hyperquest": "~0.1.8",
+    "JSONStream": "~0.7.1",
+    "optimist": "~0.6.0",
+    "curry": "~1.2.0",
+    "xtend": "~2.1.1"
+  },
+  "devDependencies": {
+    "tape": "*"
+  },
+  "author": "ashnur",
+  "license": "DAFUQ",
+  "readmeFilename": "README.md"
+}

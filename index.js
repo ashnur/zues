@@ -27,7 +27,7 @@ void function(root){
       , xtend = require('xtend')
       , uri = require('URIjs')
       , hqst = require('hyperquest')
-      , stm = uri('http://api.steampowered.com/')
+      , stm = uri('http://api.steampowered.com:80/')
       , api = function query(segments, search, debug){
             var map = xtend(stm.search(true), search)
             stm.search(map)

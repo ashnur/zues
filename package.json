@@ -23,6 +23,13 @@
   "devDependencies": {
     "tape": "*"
   },
+  "keywords": [
+    "dota 2",
+    "steam",
+    "web api",
+    "webapi",
+    "strams"
+  ],
   "author": "ashnur",
   "license": "DAFUQ",
   "readmeFilename": "README.md"
